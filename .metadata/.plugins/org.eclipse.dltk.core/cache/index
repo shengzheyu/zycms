@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" environment="org.eclipse.dltk.core.environment.localEnvironment">
+  <entries path="E:/ZY/MyProject/zycms/CMS_10/WebRoot/backend/js/jquery-ui-1.8.custom.min.js" timestamp="1452610728854" lastAccessTime="1452611049424"/>
+  <entries path="E:/ZY/MyProject/zycms/CMS_10/WebRoot/backend/js/js.js" timestamp="1452610728854" lastAccessTime="1452611049595"/>
+  <entries path="E:/ZY/MyProject/zycms/CMS_10/WebRoot/backend/js/jquery-1.4.2.min.js" timestamp="1452610728853" lastAccessTime="1452611049212"/>
+</cache:CacheIndex>
