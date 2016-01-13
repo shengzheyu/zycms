@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+ <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/backend/";
@@ -9,9 +10,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 	<base href="<%=basePath%>">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>CMS 后台管理工作平台</title>
+	<title>后台管理工作平台</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
-	<script type="text/javascript" src="js/js.js"></script>
+	<script type="text/javascript" src="js/admin/login.js"></script>
+	<script type="text/javascript" src=" <c:url value='/jquery/jquery-1.5.1.js'/>"></script>
 	<script type="text/javascript">
 		function reflash(){
 			document.getElementById("safecode").src="CheckCodeServlet?m"+Math.random();
@@ -20,7 +22,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </head>
 <body>
 <div id="top"> </div>
-<form id="login" action="LoginServlet" method="post">
+<form id="login" action="/AdminServlet" method="post">
   <div id="center">
     <div id="center_left"></div>     
     <div id="center_middle">
@@ -38,12 +40,22 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <input type="password" name="password" id="password" />
         </label>
       </div>
-      <div class="chknumber">
+    <!--   <div class="chknumber">
         <label>验证码：
         <input name="checkcode" type="text" id="checkcode" maxlength="4" class="chknumber_input" />
         </label>
         <img src="CheckCodeServlet" id="safecode" onclick="reflash()"/>
+      </div> -->
+      
+       <div class="chknumber">
+         <label> 验证码:
+         	<input class="input_yzm" type="text" name="verifyCode" id="verifyCode" value="${user.verifyCode }"/>
+         </label>
+         <img id="vCode" src="<c:url value='/VerifyCodeServlet'/>" onclick="javascript:_hyz()"/>
+         <br><label id="verifyCodeError" class="error"></label>
+        <!--  <a id="verifyCode" href="javascript:_hyz()">换张图</a> -->
       </div>
+      
     </div>
     <div id="center_middle_right"></div>
     <div id="center_submit">
@@ -53,7 +65,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <div id="center_right"></div>
   </div>
 </form>
-<div id="footer">北京领航致远科技有限公司</div>
+<div id="footer">北京XXXX科技有限公司</div>
 </body>
 </html>
 

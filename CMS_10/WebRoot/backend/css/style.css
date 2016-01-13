@@ -66,7 +66,12 @@ INPUT {
 	color:#283439;
 }
 .chknumber_input {
-	width:40px;
+	width:60px;
+	height:20px;
+}
+.input_yzm {
+	width:100px;
+	height:20px;
 }
 .user {
 	margin: 6px auto;

@@ -63,7 +63,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<head>\r\n");
       out.write("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n");
       out.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"style/main.css\">\r\n");
-      out.write("<title>欢迎访问领航致远JAVA联盟</title>\r\n");
+      out.write("<title>欢迎访问ZY的JAVA</title>\r\n");
       out.write("</head>\r\n");
       out.write("<body>\r\n");
       out.write("<!-- 网站的logo，其它背景，首页横幅广告等等 -->\r\n");

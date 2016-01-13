@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="style/main.css">
-<title>欢迎访问领航致远JAVA联盟</title>
+<title>欢迎访问ZY的JAVA</title>
 </head>
 <body>
 <!-- 网站的logo，其它背景，首页横幅广告等等 -->

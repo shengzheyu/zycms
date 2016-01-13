@@ -1,13 +1,14 @@
-eclipse.preferences.version=1
-myeclipseTomcatServer.CMS_10.IEARProjectName=
-myeclipseTomcatServer.CMS_10.altContextRoot=
-myeclipseTomcatServer.CMS_10.contextRoot=/cms
+#Wed Jan 13 10:20:18 CST 2016
+myeclipseTomcatServer.CMS_10.shouldOverwrite=false
 myeclipseTomcatServer.CMS_10.deployIsOverProject=false
-myeclipseTomcatServer.CMS_10.deploymentPath=E\:\\ZY\\MyProject\\zycms\\.metadata\\.me_tcat\\webapps\\cms
 myeclipseTomcatServer.CMS_10.isDeployed=true
+myeclipseTomcatServer.CMS_10.IEARProjectName=
+myeclipseTomcatServer.CMS_10.deploymentPath=E\:\\ZY\\MyEclipseWorkspaces\\zymanagement\\zycms_version1\\zycms\\.metadata\\.me_tcat\\webapps\\cms
+myeclipseTomcatServer.CMS_10.type=WebDeployment
+myeclipseTomcatServer.CMS_10.altContextRoot=
+myeclipseTomcatServer.CMS_10.noFileCopy=false
+myeclipseTomcatServer.CMS_10.shouldBackup=true
+eclipse.preferences.version=1
 myeclipseTomcatServer.CMS_10.isExploded=true
 myeclipseTomcatServer.CMS_10.isUptoDate=true
-myeclipseTomcatServer.CMS_10.noFileCopy=false
-myeclipseTomcatServer.CMS_10.shouldBackup=false
-myeclipseTomcatServer.CMS_10.shouldOverwrite=false
-myeclipseTomcatServer.CMS_10.type=WebDeployment
+myeclipseTomcatServer.CMS_10.contextRoot=/cms

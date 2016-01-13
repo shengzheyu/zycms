@@ -8,6 +8,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import cn.edu.sjzc.cms.dao.UserDao;
+import cn.edu.sjzc.cms.model.User;
+import cn.itcast.commons.CommonUtils;
 
 public class LoginServlet extends HttpServlet {
 
@@ -22,6 +24,8 @@ public class LoginServlet extends HttpServlet {
 		String username=request.getParameter("username");
 		String password=request.getParameter("password");
 		String checkcode=request.getParameter("checkcode");
+		//封装表单数据到admin
+		//User form = CommonUtils.toBean(request.getParameterMap(), User.class);
 		UserDao userDao=new UserDao();
 		boolean flag=false;
 		if(!(checkcode.equals((String)request.getSession().getAttribute("CHECK_CODE")))){

@@ -1,0 +1,5 @@
+package cn.edu.sjzc.cms.service;
+
+public class AdminService {
+
+}

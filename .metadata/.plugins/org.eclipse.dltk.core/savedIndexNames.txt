@@ -1,1 +1,1 @@
-E:\ZY\MyProject\zycms\.metadata\.plugins\org.eclipse.dltk.core\3555364078.index
+E:\ZY\MyEclipseWorkspaces\zymanagement\zycms_version1\zycms\.metadata\.plugins\org.eclipse.dltk.core\3555364078.index
